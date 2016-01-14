@@ -1,3 +1,70 @@
+/* MAIN BODY STYLE*/
+body {
+	background-color: LightSlateGray;
+	font-family: Arial, Sans-serif;
+}
+.body {
+	width: 425px;
+	margin:auto;
+	background-color: silver;
+	position:relative;
+}
+header {
+	background-color: MediumSpringGreen;
+	border-bottom: 5px solid MediumSeaGreen;
+	color: white;
+	height: 150px;
+	line-height: 250px;
+}
+h1 {
+	display: block;
+	vertical-align: baseline;
+	padding-left: 2%;
+	font-size: 25px;
+}
+/* Navigation */
+nav {
+	width: 100%;
+    height: 35px;
+    background-color: steelblue;
+    line-height: 32px;
+    text-align: right;    
+}
+nav ul {
+	margin-top: 0;
+}
+nav li {
+	display: inline;
+    color: white;
+    padding: 0px 1.5%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+nav li a {
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+nav li a:hover {
+	color:sienna;
+}
+
+/* Article */
+h2 {
+	padding-left: 25px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+h3 {
+	padding-left: 25px;
+	font-size: 17px;
+	margin-bottom: 0;
+}
+p {
+	padding: 0 10%;
+    font-size: 14px;
+    line-height: 1.2;
+}
 /* COMMENT STREAM */
 .entry {
 	position: relative;
@@ -18,3 +85,4 @@
 time {
 	font-size: 10px;
 	color: #a6a6a6;
+}
