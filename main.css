@@ -1,12 +1,15 @@
 /* MAIN BODY STYLE*/
+* {
+		box-sizing:border-box;
+	}
 body {
 	background-color: LightSlateGray;
 	font-family: Arial, Sans-serif;
-}
+	}
 .body {
 	width: 425px;
 	margin:auto;
-	background-color: silver;
+	background-color: whitesmoke;
 	position:relative;
 }
 header {
@@ -23,29 +26,29 @@ h1 {
 	font-size: 25px;
 }
 /* Navigation */
-nav {
+.nav {
 	width: 100%;
     height: 35px;
     background-color: steelblue;
     line-height: 32px;
     text-align: right;    
 }
-nav ul {
+.nav ul {
 	margin-top: 0;
 }
-nav li {
+.nav li {
 	display: inline;
     color: white;
     padding: 0px 1.5%;
     vertical-align: middle;
     font-size: 15px;
 }
-nav li a {
+.nav li a {
 	color: white;
 	font-size: 15px;
 	text-decoration: none;
 }
-nav li a:hover {
+.nav li a:hover {
 	color:sienna;
 }
 
@@ -62,9 +65,55 @@ h3 {
 }
 p {
 	padding: 0 10%;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.2;
 }
+/* LANGUAGE TABLE */
+.language-table{
+	width: 98%;
+	margin:0 1%;	
+	border-collapse:collapse;
+	font-size: 12px;
+	line-height: 1.2;
+}
+.table-header th {
+	border:thin solid silver;
+	background-color: gray;
+    height: 26px;
+    text-align: left;
+    padding: 1% 2%;
+    font-size: 13px;
+}
+.language-table td {
+	border:thin solid silver;
+	text-align: center;
+    padding: 1% 2%;
+}
+.table-btn {
+	background-color: blue;
+    border-radius: 3px;
+    padding: .4rem 1rem;
+    color: white;
+    border: none;
+    font-size: 13px;
+}
+/* PRE TAG */
+.pre-tag {
+	height: 100px;
+	width: 90%;
+	background-color: lightgrey;
+	margin:auto;
+	padding-top: 10px;
+	padding-left: 5%;
+
+}
+/* NARROW IMAGE */
+.narrow-img {
+	display: block;
+	margin: auto;
+}
+/* LIST */
+A
 /* COMMENT STREAM */
 .entry {
 	position: relative;
