@@ -5,6 +5,8 @@
 body {
 	background-color: LightSlateGray;
 	font-family: Arial, Sans-serif;
+	padding: 0;
+	margin:0;
 	}
 .body {
 	width: 425px;
@@ -113,8 +115,36 @@ p {
 	margin: auto;
 }
 /* LIST */
-A
+.html-list {
+	width: 90%;
+	margin:auto;
+	list-style-type: 
+}
+.html-list ol {
+	font-size: 12px;
+	line-height: 1.2;
+	/*width: 90%;*/
+	/*margin:auto;*/
+	padding:5% 5%;
+}
+
+/* FOOTER */
+.footer {
+	font-size: 12px;
+    padding-left: 2%;
+    color: gray;
+    margin-bottom: 20px;
+}
+h1, .comment-input {
+	margin-bottom: 40px;
+}
+
 /* COMMENT STREAM */
+.comments {
+	font-size: 12px;
+	line-height: 1.2;
+	padding:0 3%;
+}
 .entry {
 	position: relative;
 	display: block;
@@ -135,3 +165,25 @@ time {
 	font-size: 10px;
 	color: #a6a6a6;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
